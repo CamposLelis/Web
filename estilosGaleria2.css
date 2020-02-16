@@ -1,8 +1,8 @@
 .galeria-all {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     padding: 7px;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
