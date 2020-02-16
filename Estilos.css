@@ -3,7 +3,7 @@
 /* CSS Document */
 
 body {
-    background: #444;
+    background: #2e597b url(images/main_bg.jpg) top repeat-x;
     margin: 0px;
     font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
 }
@@ -20,7 +20,7 @@ h1 {
     width: 100%;
     margin: auto;
     list-style: none;
-    padding: 10px;
+    padding: 7px;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
@@ -37,6 +37,9 @@ h1 {
     width: 110px;
     /*para el tamaño de las imagenes*/
     height: 105px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
 }
 
 
@@ -128,7 +131,6 @@ p {
     padding: 5px 10px;
     float: left;
     text-align: center;
-    background: blue;
 }
 
 .content1 {
