@@ -1,0 +1,128 @@
+.galeria-all {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px;
+    justify-content: center;
+}
+
+.galeria-img {
+    width: 600px;
+    height: 369px;
+    position: relative;
+    overflow: hidden;
+}
+
+.galeria-img img {
+    width: 100%;
+}
+
+.content-1 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    background: rgba(0, 100, 255, 0.7);
+    top: 0;
+    transform: rotate(-30deg);
+    margin-left: -700px;
+    transition: all 800ms;
+}
+
+.content-2 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    background: rgba(0, 100, 255, 0.7);
+    top: 0;
+    transform: rotate(-30deg);
+    margin-left: -730px;
+    transition: all 700ms;
+}
+
+.content-3 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    background: rgba(0, 100, 255, 0.7);
+    top: 0;
+    transform: rotate(-50deg);
+    margin-left: -735px;
+    margin-top: -650px;
+    transition: all 500ms;
+    box-shadow: 0px 1px 20px -5px black;
+}
+
+.content-4 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    background: rgba(0, 100, 255, 0.7);
+    top: 0;
+    transform: rotate(-50deg);
+    margin-left: -770px;
+    margin-top: -650px;
+    transition: all 700ms;
+}
+
+.galeria-img:hover .content-1 {
+    width: 210%;
+    transition: all 800ms;
+}
+
+.galeria-img:hover .content-2 {
+    width: 208%;
+    transition: all 500ms;
+}
+
+.galeria-img:hover .content-3 {
+    width: 250%;
+    transition: all 900ms;
+}
+
+.galeria-img:hover .content-4 {
+    width: 248%;
+    transition: all 6 00ms;
+}
+
+.content-text {
+    position: absolute;
+    top: 0;
+    width: 400px;
+    padding: 10px;
+    z-index: 10;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.content-text h2 {
+    font-size: 25px;
+    color: white;
+    opacity: 0;
+    transform: scale(0.2);
+    transition: all 300ms;
+}
+
+.content-text p {
+    font-size: 20px;
+    color: white;
+    opacity: 0;
+    transform: scale(1.5);
+    transition: all 300ms;
+}
+
+.galeria-img:hover h2 {
+    opacity: 1;
+    transition: all 500ms;
+    transform: scale(1);
+}
+
+.galeria-img:hover p {
+    opacity: 1;
+    transition: all 500ms;
+    transform: scale(1);
+}
+
+.body_resize h1 {
+    text-align: center;
+    color: blue;
+}
